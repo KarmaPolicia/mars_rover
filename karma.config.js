@@ -34,15 +34,7 @@ module.exports = function (config) {
           query: {
             cacheDirectory: true,
           },
-        }, {
-          test: /\.js?$/,
-          include: /src/,
-          exclude: /(node_modules|bower_components|__tests__)/,
-          loader: 'babel-istanbul',
-          query: {
-            cacheDirectory: true,
-          },
-        }, ],
+        }],
         loaders: [{
           test: /\.js$/,
           include: path.resolve(__dirname, 'src'),
