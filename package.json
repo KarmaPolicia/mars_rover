@@ -47,6 +47,7 @@
     "karma-webpack": "^1.7.0",
     "loader-utils": "^0.2.12",
     "rimraf": "^2.5.0",
-    "webpack": "^1.12.11"
+    "webpack": "^1.12.11",
+    "babel-polyfill": "^6.23.0"
   }
 }
